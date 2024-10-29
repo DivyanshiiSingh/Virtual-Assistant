@@ -21,5 +21,5 @@ def myCommands():
         talk("Could not understand what you said")
         
     except sr.RequestError as e:
-        talk("Could not request results; {0}".format(e))#what does this mean?
+        talk("Could not request results; {0}".format(e))
 
